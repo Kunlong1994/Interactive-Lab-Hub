@@ -8,3 +8,4 @@ Completed Labs for Kunlong
 4. [Kunlong's Lab 4](//github.com/Kunlong1994/lab3/blob/master/Lab-04.md)
 5. [Kunlong's Lab 5](//github.com/Kunlong1994/lab3/blob/master/Lab-05.md)
 6. [Kunlong's Lab 6](//github.com/Kunlong1994/Interactive-Lab-Hub/tree/master/lab6)
+7. [Kunlong's Lab 7](//github.com/Kunlong1994/lab3/blob/master/Lab07.md)
