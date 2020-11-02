@@ -1,4 +1,4 @@
-
+#!/usr/bin/env python3
 
 from vosk import Model, KaldiRecognizer, SetLogLevel
 import sys
@@ -17,7 +17,7 @@ if wf.getnchannels() != 1 or wf.getsampwidth() != 2 or wf.getcomptype() != "NONE
     exit (1)
 
 model = Model("model")
-rec = KaldiRecognizer(model, wf.getframerate(), "good morning")
+rec = KaldiRecognizer(model, wf.getframerate())
 
 while True:
     data = wf.readframes(4000)
