@@ -1,39 +1,34 @@
-# Introducing the **Raspberry Pi**
 
-## Preparing your Raspberry Pi
-
-
-
-## Setup and run the ChatBot Example
-
-### Installation
 **How do you know what the shell script is doing?**
 
-We used nano to inspect the scripts 
+Use nano to inspect the shell scripts 
 
 **How do we use vosk to recognize words and phrases?**
 
-We do it by executing a shell script, which records an audio file and then execute a python script that finds words from a given list.
+We execute the shell script
 
 **Include the output of vosk recognizing phrases you taught it to look for.**
 
-text: ['Banana', 'Apple', 'Orange']
+text: ['Morning, hi, hello']
 
 **Include the listing for a shell script and model files that you use to get vosk to recognize these phrases.**
 
-test_words.py <- chage the word list
-### Experimenting with Linux processes
-Connect the Arduino and the RPi
-**What would you change to make sayHelloPi say something else?**
+Add the words into the KaldiRecognizer line of test_words.py
 
-We can do so simply by changing the data string to any text and it will try to pronounce it
+
+
+**What would you change to make sayHelloPi say something else?**
+Change the data string in the .ino file to the word we want it to say
+
+
 **How could you make it so that the Pi would only say something if the lights came on in the room?**
 
-We can connect arduino to a light sensor and modify helloPi.ino so it only send strings through the serial port when there's enough light detected in the light sensor.
+Connect  a light sensor to Arduino and modify helloPi.ino.
 **How could you make it so that the Pi would say different things based on different sensor values read by the Arduino?**
 
-We will first mondify hellpi.ino to send different serial signals when different values are read by the sensor. We will then change sayHellopi.py to play different sound files, or text2speech different strings.
-**Next, try out HelloArduino. First have HelloArduino.ino listen for messages from HelloArduino.py. Next, use morse_code_translator.ino. What happens differently?**
+Modify hellpi.ino to send out serial signals according to different input from sensors. Then change sayHellopi.py to play different messages accordingly.
+
+
 
 ### Your own voice agent
 Program a simple application that understands different basic greetings (for example, Yo!, Good morning! And Good afternoon!) and responds either visibly, physically or auditorially in kind!
