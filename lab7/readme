@@ -3,16 +3,18 @@
 
 ## Button circuit
 
-picture in folder
+![button](https://github.com/Kunlong1994/Interactive-Lab-Hub/blob/master/lab7/buttoncircuit.JPG)
 
 ## Serving webpages 
  
-![analogread](https://github.com/Kunlong1994/-Interactive-Lab-Hub/blob/master/Lab4/analogread.jpg)
+![kunlong'swebsite](https://github.com/Kunlong1994/Interactive-Lab-Hub/blob/master/lab7/servingwebpages.png)
  
 **customize the code enough that the webpage served up is clearly your own, and include a screenshot and any modified code in the lab folder. **
  I changed the text to "Hello Kunlong"
  
 ## Set up and Run Interaction Engine
+
+![interaction](https://github.com/Kunlong1994/Interactive-Lab-Hub/blob/master/lab7/Interactionmachine.png)
 
 **What messages are sent from the Arduino to the Pi?**
 
