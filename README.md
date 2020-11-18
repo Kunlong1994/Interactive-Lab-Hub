@@ -9,3 +9,5 @@ Completed Labs for Kunlong
 5. [Kunlong's Lab 5](//github.com/Kunlong1994/lab3/blob/master/Lab-05.md)
 6. [Kunlong's Lab 6](//github.com/Kunlong1994/Interactive-Lab-Hub/tree/master/lab6)
 7. [Kunlong's Lab 7](//github.com/Kunlong1994/lab3/blob/master/Lab07.md)
+8. [Kunlong's Final Project](//github.com/Kunlong1994/IDDFinalProject_2020)
+
